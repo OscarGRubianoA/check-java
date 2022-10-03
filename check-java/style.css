@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    
+    font-size: 2.9rem;
+    background-color: rgb(60, 58, 58);
+    height:7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+header{
+    background-image: url(./assets/imgheader.png);
+    background-size: 30%;
+    height: 20vh;
+}
+main{
+    
+    display: flex;
+    
+    padding: 0rem 1rem .6rem 2rem;
+}
+
+main>div>nav{
+    height: 69vh;
+    min-width: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(60, 58, 58);
+    padding-bottom: 3rem;
+    border-radius: .6rem;
+    
+    
+}
+nav img{
+    height: 4rem;
+    width: 4rem;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+main>div>section{
+    min-width:69rem;
+    height: 69vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    
+    
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: .6rem;
+    background-color: rgb(60, 58, 58);
+    padding: 2rem;
+    color: white;
+    gap: 1rem;
+}
+
+article img{
+    height: 13rem;
+    width: 16rem;
+}
+article button{
+    border: 2px solid white;
+    background-color: rgb(60, 58, 58);
+    color: white;
+    padding: 5px;
+    border-radius: .6rem;
+}
+footer{
+    height: 9.4vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+footer a{
+    background-color: rgb(60, 58, 58);
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: .5rem;
+}
