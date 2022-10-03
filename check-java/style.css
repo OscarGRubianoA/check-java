@@ -68,6 +68,7 @@ article{
     padding: 2rem;
     color: white;
     gap: 1rem;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.446);
 }
 
 article img{
